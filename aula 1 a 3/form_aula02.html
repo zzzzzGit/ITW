@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    </style>
+</head>
+
+<body>
+    <h1>Informacao pessoal</h1>
+    <form name="PersonData" action="http://192.168.160.36/FormEcho.aspx" method="post">
+        <input type="hidden" name="FormName" value="UserForm" />
+        <fieldset>
+            <legend>Informacao pessoal</legend>
+            <dl>
+                <dt>Nome: </dt>
+                <dd>
+                    <input type="text" name="FirstName" value="Joaquim" placeholder="Nome" />
+                </dd>
+                <dt>Sobrenome: </dt>
+                <dd>
+                    <input type="text" name="LastName" placeholder="Sobrenome" />
+                </dd>
+                <dt>Password: </dt>
+                <dd>
+                    <input type="password" name="Password" placeholder="Digite a palavrapasse" />
+                </dd>
+            </dl>
+        </fieldset>
+
+        <fieldset>
+            <legend>Comentarios</legend>
+            <textarea style="padding-top:0px;" name="Comments" rows="4" cols="150" placeholder="Insira os seus comentários"></textarea>
+        </fieldset>
+
+        <table>
+            <tr>
+                <td style="width:50%;height:50px;">
+                    <fieldset class="trannsportes">
+                        <legend>Transporte</legend>
+                        <input type="checkbox" name="carro" id="transporte1" />
+                        <label for="transporte1">Carro</label><br />
+                        <input type="checkbox" name="bicicleta" id="transporte2" />
+                        <label for="transporte2">Bicileta</label><br />
+                        <input type="checkbox" name="mota" id="transporte3" />
+                        <label for="transporte3">Mota</label><br />
+                    </fieldset>
+                </td>
+
+                <td style="width:50%;height:200px;">
+                    <fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+        </div>
+
+
+    </form>
+</body>
+
+</html>
+
+<!--
+    <dl>
+    <dd>
+        <textarea name="Comments" rows="4" cols="150" placeholder="Insira os seus comentários"></textarea>
+    </dd>
+    <dd>
+        <input name="Button" type="Submit" /> <input type="reset" name="resetBtn" value="Reset" />
+    </dd>
+</dl>
+-->

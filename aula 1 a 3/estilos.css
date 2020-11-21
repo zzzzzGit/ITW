@@ -1,0 +1,80 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    border: 0px solid #000000;
+}
+
+.MenuTop {
+    width: 960px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    background-color: black;
+}
+
+    .MenuTop table {
+        width =100%;
+        height: 100%;
+        border-collapse: collapse
+    }
+
+        .MenuTop table td {
+            width: 70px;
+            text-align: center;
+            color: white;
+            padding: 0;
+            margin: 0;
+        }
+
+    .MenuTop a {
+        text-decoration-line: none;
+    }
+
+a:link, a:visited {
+    color: white;
+}
+
+
+.Banner {
+    height: 360px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+    .Banner img {
+        width: 100%;
+        height: 100%;
+    }
+
+.ContentArea {
+    min-height: 480px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0px;
+}
+
+.Content {
+    float: left;
+    width: 75%;
+    height: 100%;
+}
+
+    .Content p, h1 {
+        padding: 0px 20px 0px 20px;
+    }
+
+.Ads {
+    height: 100%;
+}
+
+.Footer {
+    width: 960px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
